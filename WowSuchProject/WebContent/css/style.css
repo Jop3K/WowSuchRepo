@@ -1,9 +1,11 @@
 ul {
     list-style-type: none;
+    font-family: courier; /*Jenna*/
+   	font-size: xx-large; /*Jenna*/
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:	#00BFFF; /*Jenna*/
+    background-color: #00BFFF; /*Jenna*/
 }
 
 li {
