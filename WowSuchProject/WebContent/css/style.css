@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:	#00BFFF; /*Jenna*/
 }
 
 li {
@@ -21,4 +21,11 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+
+/*Jenna teki tämän alla olevan hienon sectionin*/
+section{
+	background-color: #1E90FF; 
+	width: 100%; 
+	height: 500px;
 }
