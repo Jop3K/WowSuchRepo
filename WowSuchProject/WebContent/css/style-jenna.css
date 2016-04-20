@@ -42,7 +42,7 @@ eli jos halutaan kaikilla sivuilla navi toimimaan niin <ul class="navigaatio"> *
 .active {
 	background-color: pink;
 }
-/*Jenna (Jere) did section*/
+/*Jenna did section*/
 /* en muista mitä kaikkea tässä muutettiin mutta table margin: 0 auto; keskittää tablen sisällön keskelle sivua */
 section{
 	background-color: #1E90FF; 
