@@ -1,0 +1,77 @@
+/* merkki "*" tarkoittaa siis kaikkea mit‰ ei ole m‰‰ritetty perus juureen eri parametreille */
+* {
+	 
+}
+
+body {
+	background-color: #1E90FF; /* bodylle taustav‰ri*/ 
+	margin: 0; 
+	padding: 0; 
+}
+
+/* nav ul:le m‰‰ritettiin class navi, joka tulee t‰ss‰ siis .navi:na selkeyden vuoksi ja jotta saadaan keskitetty‰ navikaatio sujuvasti.
+eli jos halutaan kaikilla sivuilla navi toimimaan niin <ul class="navigaatio"> */
+.navigaatio{
+	list-style-type: none;
+    font-family: courier;
+   	font-size: xx-large;
+	background-color: #00BFFF;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	overflow: hidden;
+}
+
+.navigaatio li{
+    display:inline;
+}
+
+.navigaatio a{
+    display:inline-block;
+	color: white;
+	padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigaatio a:hover {
+    background-color: #111;
+}
+/* Actiivinen navi, m‰‰ritet‰‰n <a class="active" href="characters.html">CHARACTERS</a> */
+.active {
+	background-color: pink;
+}
+/*Jenna (Jere) did section*/
+/* en muista mit‰ kaikkea t‰ss‰ muutettiin mutta table margin: 0 auto; keskitt‰‰ tablen sis‰llˆn keskelle sivua */
+section{
+	background-color: #1E90FF; 
+	width: 100%;  /* pituus on aina 100% katsojan pixeleist‰/n‰ytˆst‰ */
+	height: auto; /* m‰‰ritt‰‰ automaattisesti section korkeuden */
+}
+
+section img {
+	margin: 10px; /* kuvien bordereiden ulkopuolella oleva alue */ 
+	border: 3px solid black;
+}
+
+table {
+	margin: 0 auto; /* tablen keskitys */
+	margin-top:14px; /* tablen p‰‰lle tuleva pehmustus jotta navi ei j‰‰ alle */
+}
+
+table td {
+	width:50%;	/* table jakautuu tasaisesti kahtia */
+}
+
+iframe {
+	
+}
+
+/* T‰m‰n hetkinen ratkaisu iframen bordereiden poistoon, scrolli baariakaan ei n‰y ellei sit‰ tarvitse */
+iframe[seamless]{
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}

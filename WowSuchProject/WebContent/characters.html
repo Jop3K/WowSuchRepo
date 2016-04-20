@@ -2,28 +2,46 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>HTML Harjoitus</title>
-		<link rel="stylesheet" href="css/style.css">
-	<nav style="width: 100%; height: 50px;">
-	
-	
+<title>Characters - HTML Harjoitus</title>
+		<link rel="stylesheet" href="css/style-jenna.css"> <!-- Jennalle muokattu css tiedosto tätä sivua varten, navi kunnossa ja muutenkin scaalaava ja keskitetty -->
+</head>
+<body>
+
+	<nav style="width: 100%; height: 50px;">	
 	<!-- Joni -->
-	<ul>
+	<!-- Navigation bar linkit -->
+	<ul class="navigaatio">
   	<li><a href="index.html">FRONT PAGE</a></li>
-  	<li><a class="active" href="download.html">CHARACTERS</a></li>
+  	<li><a class="active" href="characters.html">CHARACTERS</a></li>
   	<li><a href="story.html">STORY</a></li>
   	<li><a href="walkthrough.html">WALKTROUGH</a></li>
-	</ul>
-		
-
+	<li><a href="credits.html">CREDITS</a></li>
+	</ul>		
 	</nav>
+	
+	<!-- Jennan poikuli, Sectiossa table jotta voidaan lisätä kuvat ja kuvaukset vierekkäin ilman jscriptiä, kuvat avaa uuden html sivun iframen sisälle -->
+	<!-- eka kuva on muokattu toimivaksi, target parametri määrittää minkä iframen sisälle linkki tuo sivun, iframelle määritetään name parametri vastaamaan target parametria -->
 	<section>
-		<p style="text-align: center; padding-top: 40px"> <!-- Joni -->
-		<img src="img/Doge.png" height="250" width="250"> <!-- Jenna: tässä on laitettu kuva Dogesta ja määritelty sen koko -->
-		<img src="img/cat2.png" height="250" width="250"> <!-- Jenna: Here is picture of cate-->
-		<img src="img/hoomane.png" height="250" width="250"> <!-- Jenna -->
-		<img src="img/rip.png" height="250" width="250"> <!-- Jenna -->
-		</p>
+	<table>
+		<tr>
+			<td>
+				<p> 
+					<a href="doge-desc.html" target="hahmo-kuvaus">
+						<img src="img/Doge.png" height="250" width="250"> <!-- Jenna: tässä on laitettu kuva Dogesta ja määritelty sen koko -->
+					</a>
+					<img src="img/cat2.png" height="250" width="250"> <!-- Jenna: Here is picture of cate-->
+				</p>
+				<p>	
+					<img src="img/hoomane.png" height="250" width="250"> <!-- Jenna -->
+					<img src="img/rip.png" height="250" width="250"> <!-- Jenna -->
+				</p>
+			</td>
+			<td>
+				<iframe name="hahmo-kuvaus" src="descriptions.html" width="100%" height="100%" seamless="seamless"></iframe>
+			</td>
+		</tr>
+	</table>
 	</section>
+
 </body>
 </html>
