@@ -7,17 +7,19 @@ ul {
     list-style-type: none;
     font-family: courier; /*Jenna*/
    	font-size: xx-large; /*Jenna*/
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 0; /*Joni*/
+    padding: 0; /*Joni*/
+    overflow: hidden;/*Joni*/
     background-color: #00BFFF; /*Jenna*/
+    
+    
 }
 
 li {
     float: left;
 }
 
-li a {
+li a { /*Joni*/
     display: block;
     color: white;
     text-align: center;
@@ -26,7 +28,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+li a:hover { /*Joni*/ 
     background-color: #111;
 }
 
