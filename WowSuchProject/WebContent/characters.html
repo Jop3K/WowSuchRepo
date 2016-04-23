@@ -15,32 +15,30 @@
   	<li><a class="active" href="characters.html">CHARACTERS</a></li>
   	<li><a href="story.html">STORY</a></li>
   	<li><a href="walkthrough.html">WALKTROUGH</a></li>
-	<li><a href="credits.html">CREDITS</a></li> <!--Jenna-->
 	</ul>		
 	</nav>
 	
-	<!-- Jenna, Sectiossa table jotta voidaan lisätä kuvat ja kuvaukset vierekkäin ilman jscriptiä, kuvat avaa uuden html sivun iframen sisälle -->
-	<!-- eka kuva on muokattu toimivaksi, target parametri määrittää minkä iframen sisälle linkki tuo sivun, iframelle määritetään name parametri vastaamaan target parametria -->
+	<!-- Jenna, divissä on table, jotta voidaan lisätä kuvat ja kuvaukset vierekkäin ilman javascriptiä, kuvat avaa uuden html sivun iframen sisälle -->
 	<div>
 	<table>
 		<tr>
 			<td>
 				<p> 
-					<a href="doge-desc.html" target="hahmo-kuvaus">
-						<img src="img/Doge.png" height="250" width="250"> <!-- Jenna: tässä on laitettu kuva Dogesta ja määritelty sen koko -->
+					<a href="doge-desc.html" target="hahmo-kuvaus"> <!-- Jenna: target parametri määrittää minkä iframen sisälle linkki tuo sivun, iframelle määritetään name parametri vastaamaan target parametria -->
+						<img src="img/Doge.png" height="250" width="250"> <!-- Jenna: tässä on laitettu kuva Dogesta ja määritelmä sen koosta -->
 					</a>
-					<a href="cate-desc.html" target="hahmo-kuvaus">
-					<img src="img/cat2.png" height="250" width="250"> <!-- Jenna: Here is picture of cate-->
+					<a href="cate-desc.html" target="hahmo-kuvaus"> 
+					<img src="img/cat2.png" height="250" width="250"> <!-- Jenna: tässä on kuva catesta ja määritelmä sen koosta -->
 				</p>
 				<p>	
 					<a href="hoomane-desc.html" target="hahmo-kuvaus">
-					<img src="img/hoomane.png" height="250" width="250"> <!-- Jenna -->
+					<img src="img/hoomane.png" height="250" width="250"> <!-- Jenna: tässä on kuva hoomanesta ja määritelmä sen koosta -->
 					<a href="rip-desc.html" target="hahmo-kuvaus">
-					<img src="img/rip.png" height="250" width="250"> <!-- Jenna -->
+					<img src="img/rip.png" height="250" width="250"> <!-- Jenna: tässä on kuva rip dogesta ja määritelmä sen koosta -->
 				</p>
 			</td>
 			<td>
-				<iframe name="hahmo-kuvaus" src="descriptions.html" width="100%" height="100%" seamless="seamless"></iframe>
+				<iframe name="hahmo-kuvaus" src="descriptions.html" width="100%" height="100%" seamless="seamless"></iframe> <!-- Avaa iframen characters alkunäkymässä, jossa on tekstiä -->
 			</td>
 		</tr>
 	</table>

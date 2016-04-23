@@ -15,7 +15,7 @@ eli jos halutaan kaikilla sivuilla navi toimimaan niin <ul class="navigaatio"> *
 	list-style-type: none;
     font-family: courier;
    	font-size: xx-large;
-	background-color: #00BFFF;
+	background-color: #3399ff;
     list-style:none;
     margin:0;
     padding:0;
@@ -40,7 +40,7 @@ eli jos halutaan kaikilla sivuilla navi toimimaan niin <ul class="navigaatio"> *
 }
 /* Actiivinen navi, määritetään <a class="active" href="characters.html">CHARACTERS</a> */
 .active {
-	background-color: pink;
+	background-color: #ff9933;
 }
 /*Jenna did section*/
 /* en muista mitä kaikkea tässä muutettiin mutta table margin: 0 auto; keskittää tablen sisällön keskelle sivua */
@@ -101,9 +101,13 @@ navigaatiocre {
 }
 
 h1 {
-	font-family: Verdana;
-	color: black;
-	font-size: 50px;
+	font-family: arial black;
+	color: #ff9933;
+	font-size: 60px;
+}
+.h1second {
+	font-family: courier;
+	color: #ff9933;
 }
 
 .charkuvaustyylit {
