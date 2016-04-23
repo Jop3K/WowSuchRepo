@@ -18,7 +18,7 @@ body{
 }
 
 /*Jenna did section*/
-section{
+.section-div{
 	background-color: #1E90FF; 
 	width: 100%;  /* pituus on aina 100% katsojan pixeleistä/näytöstä */
 	height: auto; /* määrittää automaattisesti section korkeuden */
