@@ -1,24 +1,27 @@
 
-/*Joni*/
-body,html {
+/*Joni has worked around with this CSS*/
+
+p, h1{
+	
+	padding:0;
+	margin:0;
+}
+
+body,html{ 
 width: 100%;
 height: 100%;
 }
-
 body{
+	background-color: #1E90FF;
 	margin: 0; 
 	padding: 0; 
 }
 
-nav{
-	width: 100%; 
-	height: 10%;
-}
 /*Jenna did section*/
 section{
 	background-color: #1E90FF; 
-	width: 100%; 
-	height: 90%;
+	width: 100%;  /* pituus on aina 100% katsojan pixeleistä/näytöstä */
+	height: auto; /* määrittää automaattisesti section korkeuden */
 }
 
 ul {
@@ -33,17 +36,6 @@ ul {
     
 }
 
-li {    /*Joni*/
-    float: left;
-}
-
-li a { /*Joni*/
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 /* Change the link color to #111 (black) on hover */
 li a:hover { /*Joni*/ 
@@ -63,12 +55,16 @@ li a:hover { /*Joni*/
 }
 
 .navigaatio li{
-    display:inline;
+    display:inline; 
 }
 
 .navigaatio a{
+
     display:inline-block;
 	color: white;
-	padding: 15px 86px;
+	padding: 14px 16px;
     text-decoration: none;
+}
+.active {
+	background-color: pink;
 }

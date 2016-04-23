@@ -4,10 +4,18 @@
 <meta charset="ISO-8859-1">
 <title>HTML Harjoitus</title>
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/style-jenna.css">
+		<link rel="stylesheet" href="css/story-style.css">
+
+<!-- Script made by Joni -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('div.hidden').fadeIn(1000).removeClass('hidden');
+});
+</script>
 </head>
 <body>
-	<nav style="width: 100%; height: 50px;">
+	<nav style="width: 100%; height: 65px;">
 
 	
 	
@@ -15,13 +23,29 @@
   	<li><a href="index.html">FRONT PAGE</a></li>
   	<li><a href="characters.html">CHARACTERS</a></li>
   	<li><a class="active" href="story.html">STORY</a></li>
-  	<li><a href="walkthrough.html">WALKTROUGH</a></li>
+  	<li><a href="walkthrough.html">WALKTHROUGH</a></li>
 	</ul>
 	
 	</nav>
 	<section>
-		<p style="text-align: center; padding-top: 40px">
-		</p>
+	<div class="storytext hidden">
+		<h1>Story</h1>
+		<p>
+		<b>The Adventure of Agent Doge is a story of a heroic dog named Doge. 
+		Doge was having a nice day off from work when he was taking a walk in a park 
+		with his assistant Hoomane. Suddenly they heard a painful bark nearby.
+		 When they followed the sound, they found Doge's best friend Frisbee Doge 
+		 howling in pain. Someone had thrown Frisbee Doge with a lethal frisbee
+		 (oh, the irony). Before his death Frisbee Doge told Doge that the evil being who did this
+		 to him was none other than the evil cat known as Cate. Doge swears to avenge
+		 his best friends and begins the great adventure with his trustful assistant Hoomane.
+		 Doge must endure a great deal of hardships during his adventure to find 
+		 the castle of evil Cate.</b>
+		 </p>
+		 
+		 <img src="img/cryingdoge.jpg" alt="crying doge" style="width:250px;height:270px;padding-left:600px;padding-bottom:20px">
+		 <img src="img/rip.png" alt="rip doge" style="width:250px;height:270px;padding-right:500px;padding-bottom:20px">
+	</div>
 	</section>
 </body>
 </html>
