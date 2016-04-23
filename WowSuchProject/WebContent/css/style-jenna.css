@@ -50,6 +50,8 @@ div {
 	height: auto; /* m‰‰ritt‰‰ automaattisesti section korkeuden */
 }
 
+
+
 img {
 	margin: 10px; /* kuvien bordereiden ulkopuolella oleva alue */ 
 	border: 3px solid #000099;
@@ -121,6 +123,28 @@ h1 {
 	font-family: courier;
 	color: white;
 }
+/* Joni  */
 div.hidden{
 	display:none;	
 }
+/* Joni/Samuli  */
+#corner {
+	left:-130px;
+	top:20%;
+	width:314px;
+	position:fixed;
+	opacity:0;
+	z-index:1;
+}
+/* Joni/Samuli  */
+#corner:hover {
+	left:0;
+	opacity:1;
+	transition-duration:5s;
+}
+.corner-doge{
+	border:none;
+	margin:0;
+	background-color:#005ce6;
+}
+
