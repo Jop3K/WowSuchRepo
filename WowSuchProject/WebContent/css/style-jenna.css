@@ -121,3 +121,6 @@ h1 {
 	font-family: courier;
 	color: white;
 }
+div.hidden{
+	display:none;	
+}

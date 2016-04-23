@@ -8,15 +8,17 @@ div.hidden{
 	padding:100px;
 }
 .storytext p{
-	font-family:Verdana;
+	font-family: courier;
 	font-size:15px;
-	color:black;
+	color: white;
 	padding-left:100px;
 	padding-right:100px; 
 	line-height:150%;
 }
 .storytext h1{
+	font-family: courier;
 	text-align:center;
-	font-size:40px; 
+	font-size:60px; 
 	margin-bottom:30px;
+	color: #ff9933;
 }
